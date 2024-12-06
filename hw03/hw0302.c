@@ -40,8 +40,8 @@ int main() {
     
     // 進行一次10連抽
     printf("\n10連抽結果:\n");
+    pull10();\
     pull10();
-
     // 檢查剩餘抽獎次數
     printf("\n剩餘抽獎次數: %d\n", get_pull_number());
     

@@ -1,6 +1,5 @@
 all:
-	-gcc -c hw0301-1.c -o hw0301-1.o
-	-gcc hw0301.c hw0301-1.o -o hw0301 -lm
+	-gcc hw0301.c hw0301-1.c -o hw0301 -lm 
 
 	-gcc hw0302.c gacha.c -o hw0302
 
@@ -12,4 +11,3 @@ all:
 
 	-gcc shapez.c encrypt.c hw0305.c -o hw0305 -lm
 
-	-gcc hw0306.c -o hw0306
